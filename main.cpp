@@ -3,7 +3,7 @@ and may not be redistributed without written permission.*/
 
 //Using SDL and standard IO
 #include "framework/app.hpp"
-#include "game/states/root_state.hpp"
+#include "states/root_state.hpp"
 #include <algorithm>
 #include <memory>
 

@@ -1,14 +1,14 @@
 #pragma once
 
-#include "../../framework/base_state.hpp"
+#include "../framework/base_state.hpp"
 #include <SDL2/SDL_events.h>
 #include <algorithm>
 #include <iostream>
 #include <memory>
 #include <optional>
 #include <vector>
-#include "../tavlei.hpp"
-#include "../../engine/window.hpp"
+#include "../game/tavlei.hpp"
+#include "../engine/window.hpp"
 
 namespace tavlei {
 namespace states {
