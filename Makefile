@@ -3,7 +3,7 @@
 #and may not be redistributed without written permission.
 
 #OBJS specifies which files to compile as part of the project
-OBJS = 01_hello_SDL.cpp engine/engine.cpp engine/renderer.cpp engine/sdl_exception.cpp engine/window.cpp framework/app.cpp game/tavlei.cpp
+OBJS = main.cpp engine/engine.cpp engine/renderer.cpp engine/sdl_exception.cpp engine/window.cpp framework/app.cpp game/tavlei.cpp
 
 #CC specifies which compiler we're using
 CC = g++
@@ -16,7 +16,7 @@ COMPILER_FLAGS = -w
 LINKER_FLAGS = -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
 
 #OBJ_NAME specifies the name of our exectuable
-OBJ_NAME = 01_hello_SDL
+OBJ_NAME = tavlei
 
 #This is the target that compiles our executable
 all : $(OBJS)
